@@ -1,1 +1,8 @@
 
+CREATE DATABASE Hail Hydra;
+
+CREATE TABLE Users;
+
+CREATE TABLE Passwords;
+
+CREATE TABLE Discussions;
