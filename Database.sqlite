@@ -2,7 +2,15 @@
 CREATE DATABASE Hail Hydra;
 
 CREATE TABLE Users;
-
-CREATE TABLE Passwords;
+{
+ User_name String;
+ Pass_word String;
+ Id_number int;
+}
 
 CREATE TABLE Discussions;
+{
+Topics String;
+Comments String;
+ Discussion String;
+}
