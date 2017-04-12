@@ -31,7 +31,19 @@
 	<?php
 	$user
 	$password
-	$conn =mysqli_connect
+	$conn = new mysqli_connect($user,$password)
+		if($conn-> connect_error){
+		die("Connection Error: ". $conn->connect_error);
+	
+	$sql = "CREATE DATABASE sql"
+	if (mysqli_query($conn, $sql))
+	{
+   	 echo "Database created successfully";
+	}
+	else
+	{
+   	 echo "Error creating database: " . mysqli_error($conn);
+	}
 	
 	?>
 	
